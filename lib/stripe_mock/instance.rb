@@ -37,6 +37,7 @@ module StripeMock
     include StripeMock::RequestHandlers::Recipients
     include StripeMock::RequestHandlers::Transfers
     include StripeMock::RequestHandlers::Tokens
+    include StripeMock::RequestHandlers::Refunds
 
 
     attr_reader :accounts, :balance_transactions, :bank_tokens, :charges, :coupons, :customers,
